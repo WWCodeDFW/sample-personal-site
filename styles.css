@@ -1,0 +1,112 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1, h2 {
+  letter-spacing: 0.07em;
+}
+
+header {
+  background-color: rgba(144,29,17, 0.8);
+  color: white;
+  padding: 5vh;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.profile-pic {
+  height: 125px;
+  width: 125px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 54px;
+  margin-top: 4vh;
+}
+
+
+.social-links {
+  /*background-color: #444444;*/
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.link {
+  height: 50px;
+  width: 50px;
+  color: white;
+  margin: 0 5px;
+}
+
+section.quote {
+  height: 25vh;
+  background: url('sky.jpeg') fixed bottom;
+  display: flex;
+}
+
+section.quote > p {
+  width: 100vw;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10.7vh 0;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+section.about-me {
+  padding: 5vh;
+  height: auto;
+  overflow: auto;
+  color: #222;
+  background-color: rgba(144,29,17, 0.15);
+}
+
+.about-me > h2 {
+  line-height: 15vh;
+}
+
+.column {
+  min-height: 15vh;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 28px;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+
+footer {
+  background-color: black;
+  padding: 1px;
+}
+
+.sm-txt {
+  color: white;
+  font-size: 12px;
+}
+
+.sm-txt > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
